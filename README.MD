@@ -23,7 +23,7 @@ go get -u github.com/golang/protobuf/protoc-gen-go
 Run the following command in the Command Prompt to generate the Go code from the proto file:
 
 ```sh
-protoc --go_out=plugins=grpc:. train.proto
+protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative proto/train.proto
 ```
 
 ## Running the Server
