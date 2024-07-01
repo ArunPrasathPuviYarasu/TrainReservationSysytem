@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go compiler
+*.o
+*.a
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Go vendor directory
+vendor/
+
+# Protobuf generated files
+*.pb.go
+
+# Logs
+*.log
+
+# Ignore dependency directories
+bin/
+obj/
+
+# Temporary files
+*.tmp
