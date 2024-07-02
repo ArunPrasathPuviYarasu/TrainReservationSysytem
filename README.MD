@@ -14,8 +14,10 @@ This project is a gRPC server implemented in Go for managing train ticket purcha
 ### Installing Go Packages
 
 ```sh
+go mod init example.com/TrainReservatioSystem
 go get -u google.golang.org/grpc
 go get -u github.com/golang/protobuf/protoc-gen-go
+go mod tidy
 ```
 
 ### Generating Go Code from Proto File
